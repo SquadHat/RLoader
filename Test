@@ -1,0 +1,9 @@
+game:GetService("Players").LocalPlayer.Lives.Value = 10000
+
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "About your mum"; -- the title (ofc)
+Text = "Ur mum gay, - Security at it's finest"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 5; -- how long the notification should in secounds
+})
